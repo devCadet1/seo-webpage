@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 2% 5%;
+
+}
+
+.list{
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    list-style-type: none;
+    margin-top: 1%;
+    font-size: 20px;
+    font-family: 'poppins';
+    color: grey;
+}
+
+.list-item:hover{
+    cursor: pointer;
+    color: #1f1f1f;
+    font-size: larger;
+}
+
+.grow-list{
+    display: block;
+    position: absolute;
+    left: 20%;
+    top: 5%;
+
+}
+
+.nav-button{
+    padding: 15px 35px;
+    border-radius: 10px;
+    border: none;
+    background-color: #6233c0;
+    color: #fff;
+    font-family: 'poppins';
+    font-size: medium;
+    cursor: pointer;
+    
+    
+}
+
+.banner-container{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+
+}
+
+.right{
+    top: 20%;
+    right: 0;
+    position: absolute;
+
+}
+
+
+.btn{
+    display: block;
+    position: absolute;
+    
+    left: 10%;
+    bottom: 20%;
+    padding: 25px 55px ;
+    font-size: medium;
+    cursor: pointer;
+
+}
+
+.heading-text{
+    display: block;
+    position: absolute;
+    left: 10%;
+    top: 30%;
+    font-size: 80px;
+    width: 30%;
+    font-family: 'poppins';
+    line-height: 90px;
+    font-weight: 600;
+    color: #300a7e;
+}
+
+.description{
+    display: block;
+    position: absolute;
+    
+    left: 10%;
+    width: 18%;
+    top: 60%;
+    font-family: 'poppins';
+    line-height: 20px;
+    color: grey;
+}
+
+span{
+    color: #8b62db;
+}
